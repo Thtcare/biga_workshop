@@ -1,1 +1,29 @@
-
+Linux is a widely-used open-source operating system, similar to Windows, Mac, and Android.
+Basic Linux Commands
+| No. | Command  | Function |
+|----|----------|----------|
+| 1  | `ls` | Displays information about files in the current directory. |
+| 2  | `pwd` | Displays the current working directory. |
+| 3  | `mkdir` | Creates a directory. |
+| 4  | `cd` | Navigate between different folders. |
+| 5  | `rmdir` | Removes empty directories from the directory lists. |
+| 6  | `cp` | Copy files from one directory to another. |
+| 7  | `mv` | Rename and replace files. |
+| 8  | `rm` | Delete files. |
+| 9  | `uname` | Get basic information about the OS. |
+| 10 | `locate` | Find a file in the database. |
+| 11 | `touch` | Create empty files. |
+| 12 | `ln` | Create shortcuts to other files. |
+| 13 | `cat` | Display file contents on the terminal. |
+| 14 | `clear` | Clear the terminal. |
+| 15 | `ps` | Display the processes in the terminal. |
+| 16 | `man` | Access manuals for all Linux commands. |
+| 17 | `grep` | Search for a specific string in an output. |
+| 18 | `echo` | Print a string or text to the terminal. |
+| 19 | `wget` | Download files from the internet. |
+| 20 | `whoami` | Displays the current user's name. |
+| 21 | `sort` | Sort file content. |
+| 22 | `cal` | View the calendar in the terminal. |
+| 23 | `whereis` | View the exact location of any command typed after this command. |
+| 24 | `df` | Check the details of the file system. |
+| 25 | `wc` | Check the lines, word count, and characters in a file using different options. |
