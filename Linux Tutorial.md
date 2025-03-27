@@ -23,38 +23,32 @@ Basic Linux Commands
 ```bash
 ls
 ```
-Common ls Options 
 
-ls -l, List files in long format (detailed view) 
+# Common `ls` Options  
 
-ls -a, Show hidden files (files starting with .) 
-
-ls -lh, Show file sizes in human-readable format (e.g., KB, MB) 
-
-ls -lt, Sort files by modification time (newest first) 
-
-ls -lr, Reverse the sorting order 
-
-ls -R, List files recursively (including subdirectories) 
-
-ls -i, Show the inode number of files 
-
+| Command   | Description |
+|-----------|------------|
+| `ls -l`   | List files in long format (detailed view). |
+| `ls -a`   | Show hidden files (files starting with `.`). |
+| `ls -lh`  | Show file sizes in human-readable format (e.g., KB, MB). |
+| `ls -lt`  | Sort files by modification time (newest first). |
+| `ls -lr`  | Reverse the sorting order. |
+| `ls -R`   | List files recursively (including subdirectories). |
+| `ls -i`   | Show the inode number of files. |
  
 
 Displays the current directory path 
 
+```bash
 pwd 
+```
 
 Navigating Directories with cd 
-
 To move into a directory: 
-
 ```bash  
 cd directory_name 
 ``` 
-
 Note 
-
 /mnt	It contains temporary mount directories for mounting the file system. 
 
 Go to the Home Directory: 
