@@ -1,4 +1,4 @@
-# quality Control
+# Quality Control
 Modern sequencing technologies can generate millions of reads in a single run, but no platform is entirely error-free. Inherent limitations can introduce issues such as basecalling errors, adapter contamination, or sample-specific artifacts. If left unchecked, these errors can significantly affect downstream analyses. That’s why performing a quality check on raw reads is a crucial first step—it helps detect and address problems early on.
 
 <div align="center">
