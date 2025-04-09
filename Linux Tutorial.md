@@ -55,7 +55,11 @@ pwd
   - To move into a directory: 
   ```bash  
   cd directory_name 
-  ``` 
+  ```
+Output:
+
+<img src="https://github.com/user-attachments/assets/2c3c2538-c43b-4763-9013-014b869bc45f" alt="Image" width="800"/>
+
 > [!NOTE]
 > /mnt	It contains temporary mount directories for mounting the file system. 
 
