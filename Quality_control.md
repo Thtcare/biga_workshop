@@ -1,1 +1,2 @@
-
+# Fastqc
+FastQC is a widely used tool that provides a comprehensive overview of basic quality control metrics for raw next-generation sequencing (NGS) data. It produces an HTML report that summarizes results across several modules, each flagged as "Passed", "Warning", or "Failed". These assessments are primarily tailored for whole genome shotgun (WGS) sequencing and may not accurately reflect quality issues in other types of sequencing data. Importantly, a "Warning" or "Failed" flag doesn't always indicate a problem—researchers should interpret these results in the context of their specific experiment and sequencing strategy.
