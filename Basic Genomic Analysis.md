@@ -32,9 +32,27 @@ Where:
 
 ### Examples of Phred Scores and Corresponding Error Probabilities:
 
-| Phred Score (Q) | Probability of Incorrect Base Call (P)
- | Base Call Accuracy (%) |
-
+| Phred Score (Q) | Probability of Incorrect Base Call (P) | Base Call Accuracy (%) |
 |---------|-------------|---------|
+| Q10 | 1 in 10 ($10^{-1}$) | 90% |
+| Q20 | 1 in 100 ($10^{-2}$) | 99% |
+| Q30 | 1 in 1000 ($10^{-3}$) | 99.9% |
+| Q40 | 1 in 10,000 ($10^{-4}$) | 99.99% |
+| Q50 | 1 in 100,000 ($10^{-5}$) | 99.999% |
+
+---
+
+## Significance of the Phred Score
+- Used to assess the quality and reliability of NGS data.
+- A Q score of 30 or higher is considered high quality.
+- A Q score below 20 indicates a high probability of error and is generally considered low quality.
+
+## Phred Scores in FASTQ Files
+Phred scores are encoded in FASTQ files using ASCII characters to represent the Q score for each base in a DNA or RNA sequence.
+
+To convert from ASCII to Phred Quality Score, use this simple formula:
+
+        Phred score = ASCII value − 33
+
 
 
