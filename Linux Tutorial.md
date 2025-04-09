@@ -29,6 +29,8 @@ One of Linux's main advantages is its reliability, security, and cost-effectiven
 ls
 ```
 
+![image](https://github.com/user-attachments/assets/c618490c-2414-4f4b-910f-a26762e7d78c)
+
 ## Common `ls` Options  
 
 | Command   | Description |
