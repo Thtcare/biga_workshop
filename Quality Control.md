@@ -47,15 +47,15 @@ ls -l
 fastqc --help
 ```
 4. Run FastQC
-- Run FastQC on a single sequence file
-```{bash}
-fastqc HG001.fastq.gz
-```
-This will generate a .html report and a .zip archive in the current directory, containing the quality control results for the file HG001_fastqc.gz.
+  - Run FastQC on a single sequence file
+  ```{bash}
+  fastqc HG001.fastq.gz
+  ```
+  This will generate a .html report and a .zip archive in the current directory, containing the quality control results for the file HG001_fastqc.gz.
 
-- Run FastQC on multiple sequence files with a specific output directory and number of threads
-  - -o output_fastqc: specifies the output directory for the results. Make sure the output_fastqc directory exists before running the command.
-  - -t 4: uses 4 threads to speed up the analysis
+  - Run FastQC on multiple sequence files with a specific output directory and number of threads
+    - -o output_fastqc: specifies the output directory for the results. Make sure the output_fastqc directory exists before running the command.
+    - -t 4: uses 4 threads to speed up the analysis
 ```{bash}
 fastqc HG001.fastq.gz HG002.fastq.gz -o output_qc -t 4
 ```
