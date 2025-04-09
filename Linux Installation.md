@@ -3,7 +3,7 @@
 - download 
 Link for download Ubuntu 22.04 LTS (if this version does not work, you can download another version)  https://apps.microsoft.com/detail/9PN20MSR04DW?hl=en-us&gl=TH&ocid=pdpshare or https://ubuntu.com/download/desktop
 
-# Install Ubuntu 
+## Install Ubuntu 
 1. Turn windows features on or off 
     - Type “Turn windows features on or off” on search bar  
     - Select “Windows Subsystem for Linux” and click OK 
@@ -31,3 +31,43 @@ Link for download Ubuntu 22.04 LTS (if this version does not work, you can downl
   
       <img src="https://github.com/user-attachments/assets/eb1f1ffe-62f8-4562-8eb9-1857e93714d2" alt="Image" width="500"/>
 
+    - From error massage, go to https://aka.ms/wsl2kernel 
+    - Download Linux kernel update package
+
+      <img src="https://github.com/user-attachments/assets/8d53784b-f55e-41f2-84f2-b3d184ec9b67" alt="Image" width="500"/>
+
+    - Windows Subsystem for Linux Update
+
+       <img src="https://github.com/user-attachments/assets/ea615271-d2d4-4f6a-a44a-475cd74164cd" alt="Image" width="450"/>
+
+4. Install  
+    - Open ubuntu 
+    - The screen show Installing, this may take a few minutes 
+    - Create username and password
+
+      <img src="https://github.com/user-attachments/assets/a2dc5986-0410-4146-b895-f831250869a6" alt="Image" width="500"/>
+---
+
+# Conda 
+
+Conda is a powerful command line tool for package and environment management that runs on Windows, macOS, and Linux. 
+
+This guide to getting started with conda goes over the basics of starting up and using conda to create environments and install packages. 
+
+## Install conda  by conda-forge/miniforge 
+
+Unix-like platforms (macOS, Linux, & WSL) 
+
+- gitclone 
+
+wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh" 
+
+ 
+
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh" 
+
+Run the script with: 
+
+bash Miniforge3-$(uname)-$(uname -m).sh 
+
+Test conda 
