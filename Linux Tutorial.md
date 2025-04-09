@@ -171,3 +171,4 @@ rm file.txt
 | Command | Description | Example |
 |---------|-------------|---------|
 | `cat` | Displays the contents of a file | `cat file.txt` |
+vvvv
