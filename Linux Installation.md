@@ -1,4 +1,4 @@
-# Ubuntu 
+# Ubuntu <img src="https://github.com/user-attachments/assets/9f2bfbe8-565b-44ee-9005-549309cd6fdc" alt="Image" width="60"/>
 
 - download 
 Link for download Ubuntu 22.04 LTS (if this version does not work, you can download another version)  https://apps.microsoft.com/detail/9PN20MSR04DW?hl=en-us&gl=TH&ocid=pdpshare or https://ubuntu.com/download/desktop
