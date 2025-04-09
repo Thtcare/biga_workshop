@@ -155,3 +155,16 @@ Move a Directory
 mv my_folder /home/user/Documents/ 
 
 ``` 
+Remove a file:
+
+``` bash
+
+rm file.txt
+
+```
+
+## Text Processing Commands in Linux
+
+| Command | Description | Example |
+|---------|-------------|---------|
+| `cat` | Displays the contents of a file | `cat file.txt` |
