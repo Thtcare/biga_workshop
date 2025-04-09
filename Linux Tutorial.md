@@ -79,7 +79,11 @@ Output:
 **Create a new directory:**
   ```bash  
   mkdir new_directory 
-  ``` 
+  ```
+
+Output:
+
+<img src="https://github.com/user-attachments/assets/bfefbf20-e9e4-4d07-a9bf-e459dd80e3b5" alt="Image" width="500"/>
 
 **Copying Files and Directories with cp:** 
 ```bash 
@@ -88,6 +92,10 @@ cp [options] source destination
 > [!NOTE]
 > - source → The file or directory you want to copy. 
 > - destination → The location where the file or directory will be copied. 
+
+Output:
+
+<img src="https://github.com/user-attachments/assets/b3f167e9-e02d-44b0-bbbd-210a7346d30c" alt="Image" width="700"/>
 
   - Copy a File 
   ```bash  
@@ -126,10 +134,14 @@ Moves file.txt into the Documents directory.
 mv my_folder /home/user/Documents/ 
 ```
 
+<img src="https://github.com/user-attachments/assets/efd69ca7-7833-44d2-a2d3-40383ff71d2d" alt="Image" width="700"/>
+
 **Remove a file:**
 ``` bash
 rm file.txt
 ```
+
+<img src="https://github.com/user-attachments/assets/c03a5031-96f6-4bed-8384-177a9f8afcf3" alt="Image" width="500"/>
 
 ## Text Processing Commands in Linux
 
