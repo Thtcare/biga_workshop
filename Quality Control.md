@@ -48,9 +48,9 @@ fastqc --help
 ```
 4. Run FastQC
   - Run FastQC on a single sequence file
-  ```{bash}
+```{bash}
   fastqc HG001.fastq.gz
-  ```
+```
   This will generate a .html report and a .zip archive in the current directory, containing the quality control results for the file HG001_fastqc.gz.
 
   - Run FastQC on multiple sequence files with a specific output directory and number of threads
