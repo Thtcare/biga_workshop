@@ -48,8 +48,8 @@ To move into a directory:
 ```bash  
 cd directory_name 
 ``` 
-Note 
-/mnt	It contains temporary mount directories for mounting the file system. 
+> [!NOTE]
+> /mnt	It contains temporary mount directories for mounting the file system. 
 
 Go to the Home Directory: 
 
@@ -90,10 +90,9 @@ Copying Files and Directories with cp:
 cp [options] source destination 
 
 ``` 
-
-source → The file or directory you want to copy. 
-
-destination → The location where the file or directory will be copied. 
+> [!NOTE]
+> - source → The file or directory you want to copy. 
+> - destination → The location where the file or directory will be copied. 
 
  
 
@@ -134,10 +133,9 @@ Moving files and Directories:
 mv [options] source destination 
 
 ``` 
-
-source → The file or directory you want to move. 
-
-destination → The new location or new name for the file/directory. 
+> [!NOTE]
+> - source → The file or directory you want to move. 
+> - destination → The new location or new name for the file/directory. 
 
 Move a File to Another Directory 
 
