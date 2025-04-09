@@ -241,28 +241,40 @@ df -h
 ## Examples:
 
 **Checks the network connection to a server:**
-Command: `ping`
-Example: `ping example.com`
+
+- Command: `ping`
+
+- Example: `ping example.com`
 
 **Retrieves files from the web:**
-Command: `wget`
-Example: `wget http://example.com/file.zip`
+
+- Command: `wget`
+
+- Example: `wget http://example.com/file.zip`
 
 **Transfer data from or to a server:**
-Command: `curl`
-Example: `curl http://example.com`
+
+- Command: `curl`
+
+- Example: `curl http://example.com`
 
 **Open SSH client (remote login program):**
-Command: `ssh`
-Example: `ssh user@example.com`
+
+- Command: `ssh`
+
+- Example: `ssh user@example.com`
 
 **Securely copy files between hosts:**
-Command: `scp`
-Example: `scp file.txt user@example.com:/path/`
+
+- Command: `scp`
+
+- Example: `scp file.txt user@example.com:/path/`
 
 **Transfer files using the File Transfer Protocol:**
-Command: `ftp`
-Example: `ftp ftp.example.com`
+
+- Command: `ftp`
+
+- Example: `ftp ftp.example.com`
 
 ## Advanced Shell Commands 
 
