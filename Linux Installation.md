@@ -58,16 +58,20 @@ This guide to getting started with conda goes over the basics of starting up and
 
 Unix-like platforms (macOS, Linux, & WSL) 
 
-- gitclone 
-
+- gitclone
+```cmd
 wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh" 
-
  
-
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh" 
+```
 
-Run the script with: 
-
+- Run the script with: 
+```bash
 bash Miniforge3-$(uname)-$(uname -m).sh 
+```
 
-Test conda 
+- Test conda
+  
+    <img src="https://github.com/user-attachments/assets/a94bfdbd-f082-421a-97ea-15785d593b06" alt="Image" width="550"/>
+
+    
