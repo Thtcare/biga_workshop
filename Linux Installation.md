@@ -5,5 +5,5 @@ Link for download Ubuntu 22.04 LTS (if this version does not work, you can downl
 
 # Install Ubuntu 
 1. Turn windows features on or off 
-\t - Type “Turn windows features on or off” on search bar  
-\t - Select “Windows Subsystem for Linux” and click OK 
+    - Type “Turn windows features on or off” on search bar  
+    - Select “Windows Subsystem for Linux” and click OK 
