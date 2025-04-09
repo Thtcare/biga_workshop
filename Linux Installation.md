@@ -1,6 +1,5 @@
 <img src="https://github.com/user-attachments/assets/e4d1ba58-cd90-4a95-9ed6-6ef9379fe02a" alt="Image" width="300"/>
 
-- download 
 Link for download Ubuntu 22.04 LTS (if this version does not work, you can download another version)  https://apps.microsoft.com/detail/9PN20MSR04DW?hl=en-us&gl=TH&ocid=pdpshare or https://ubuntu.com/download/desktop
 
 ## Install Ubuntu 
@@ -55,9 +54,6 @@ Conda is a powerful command line tool for package and environment management tha
 This guide to getting started with conda goes over the basics of starting up and using conda to create environments and install packages. 
 
 ## Install conda  by conda-forge/miniforge 
-
-Unix-like platforms (macOS, Linux, & WSL) 
-
 - gitclone
 ```cmd
 wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh" 
