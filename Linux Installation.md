@@ -1,4 +1,4 @@
-# Ubuntu <img src="https://github.com/user-attachments/assets/9f2bfbe8-565b-44ee-9005-549309cd6fdc" alt="Image" width="50"/>
+<img src="https://github.com/user-attachments/assets/e4d1ba58-cd90-4a95-9ed6-6ef9379fe02a" alt="Image" width="300"/>
 
 - download 
 Link for download Ubuntu 22.04 LTS (if this version does not work, you can download another version)  https://apps.microsoft.com/detail/9PN20MSR04DW?hl=en-us&gl=TH&ocid=pdpshare or https://ubuntu.com/download/desktop
@@ -48,7 +48,7 @@ Link for download Ubuntu 22.04 LTS (if this version does not work, you can downl
       <img src="https://github.com/user-attachments/assets/a2dc5986-0410-4146-b895-f831250869a6" alt="Image" width="500"/>
 ---
 
-# Conda 
+<img src="https://github.com/user-attachments/assets/3e44e70f-d0f9-4560-b75f-5860b574935d" alt="Image" width="300"/>
 
 Conda is a powerful command line tool for package and environment management that runs on Windows, macOS, and Linux. 
 
