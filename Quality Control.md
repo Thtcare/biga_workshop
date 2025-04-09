@@ -2,7 +2,7 @@
 Modern sequencing technologies can generate millions of reads in a single run, but no platform is entirely error-free. Inherent limitations can introduce issues such as basecalling errors, adapter contamination, or sample-specific artifacts. If left unchecked, these errors can significantly affect downstream analyses. That’s why performing a quality check on raw reads is a crucial first step—it helps detect and address problems early on.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/cd667a4d-f256-473f-bfa4-919052063658" alt="Garbage In Garbage Out" width="400"/>
+  <img src="https://github.com/user-attachments/assets/11758dad-636e-4331-a84e-8d8ab233d1da" width="400"/>
 </div>
 
 This aligns with the principle **“garbage in, garbage out”**: if poor-quality data enters your analysis pipeline, it can lead to misleading or incorrect conclusions. By ensuring your input data is clean and reliable, you increase the chances of producing accurate, meaningful results and a successful project outcome.
@@ -55,12 +55,12 @@ fastqc --help
 &emsp;&emsp;This will generate a .html report and a .zip archive in the current directory, containing the quality control results for the file HG001_fastqc.gz
 
   - Run FastQC on multiple sequence files with a specific output directory and number of threads
-    - -o output_fastqc: specifies the output directory for the results. Make sure the output_fastqc directory exists before running the command.
-    - -t 4: uses 4 threads to speed up the analysis
-    
 ```{bash}
 fastqc HG001.fastq.gz HG002.fastq.gz -o output_qc -t 4
 ```
+&emsp;&emsp;-o output_fastqc: specifies the output directory for the results. Make sure the output_fastqc directory exists before running the command.
+&emsp;&emsp;-t 4: uses 4 threads to speed up the analysis
+    
 ### Output Reports
 FastQC generates comprehensive reports, including:
 - HTML Report: An interactive HTML file summarizing all quality checks.
