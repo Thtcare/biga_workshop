@@ -1,6 +1,6 @@
 # biga_workshop
-#### Date: 13–16 May 2025, 9.00 am – 4.00 pm
-#### Location: 2 Floor R104, Research and Learning Centre Celebrating HRH Princess Chulabhorn 60th Birthday Anniversary
+#### 📅 Date: 13–16 May 2025, 9.00 am – 4.00 pm
+#### 📍 Location: 2 Floor R104, Research and Learning Centre Celebrating HRH Princess Chulabhorn 60th Birthday Anniversary
 ---
 ### **PacBio Training Workshop Schedule**
 
