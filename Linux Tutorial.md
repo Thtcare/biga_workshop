@@ -52,7 +52,7 @@ pwd
 ```
 
 **Navigating Directories with cd:** 
-  - To move into a directory: 
+  - To move into a directory 
   ```bash  
   cd directory_name 
   ```
@@ -63,7 +63,7 @@ Output:
 > [!NOTE]
 > /mnt	It contains temporary mount directories for mounting the file system. 
 
-  - Go to the Home Directory: 
+  - Go to the Home Directory 
    ```bash 
    # “~” your home directory 
    cd ~ 
