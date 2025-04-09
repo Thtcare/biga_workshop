@@ -1,4 +1,4 @@
-# quality assessment
+# quality Control
 Modern sequencing technologies can generate millions of reads in a single run, but no platform is entirely error-free. Inherent limitations can introduce issues such as basecalling errors, adapter contamination, or sample-specific artifacts. If left unchecked, these errors can significantly affect downstream analyses. That’s why performing a quality check on raw reads is a crucial first step—it helps detect and address problems early on.
 
 <div align="center">
@@ -32,3 +32,15 @@ After the initial quality check, low-quality bases are trimmed, and short reads 
 - **Adapter Content** – Cumulative plot of the fraction of reads where the sequence library adapter sequence is identified at the indicated base position. Only adapters specific to the library type are searched. 
 - **Kmer content** – measures the frequency of each short nucleotide sequence of length k (default = 7) across a read. It identifies biased kmers, or kmers that appear at certain positions more frequently than expected. This is useful for identifying possible biases in sequencing data, often due to factors like highly expressed sequences in RNA-seq libraries or shearing efficiency in DNA-Seq. The module reports the positions of the six most biased kmers. Although this module can be difficult to interpret, it helps to highlight areas in the data where sequence biases may affect results. For more detailed interpretation, it’s advised to refer to FastQC’s Kmer content documentation.
 
+### Run FastQC
+1. Activate fastqc environtment – activating environments is essential to making the software in the environments work well. 
+```{bash}  
+conda activate fastqc
+```
+2. Change directories to the raw_data folder and check the contents
+```{bash}  
+cd ~/workshop/data/
+ls -l
+```
+
+~
