@@ -85,6 +85,7 @@ Output:
 
 <img src="https://github.com/user-attachments/assets/bfefbf20-e9e4-4d07-a9bf-e459dd80e3b5" alt="Image" width="500"/>
 
+
 **Copying Files and Directories with cp:** 
 ```bash 
 cp [options] source destination 
@@ -134,6 +135,8 @@ Moves file.txt into the Documents directory.
 mv my_folder /home/user/Documents/ 
 ```
 
+Output:
+
 <img src="https://github.com/user-attachments/assets/efd69ca7-7833-44d2-a2d3-40383ff71d2d" alt="Image" width="700"/>
 
 **Remove a file:**
@@ -141,7 +144,9 @@ mv my_folder /home/user/Documents/
 rm file.txt
 ```
 
-<img src="https://github.com/user-attachments/assets/c03a5031-96f6-4bed-8384-177a9f8afcf3" alt="Image" width="500"/>
+Output:
+
+<img src="https://github.com/user-attachments/assets/c03a5031-96f6-4bed-8384-177a9f8afcf3" alt="Image" width="550"/>
 
 ## Text Processing Commands in Linux
 
@@ -164,10 +169,20 @@ rm file.txt
 cat file.txt
 ```
 
+Output:
+
+<img src="https://github.com/user-attachments/assets/2aa391bd-a7c8-483d-b098-e4911e8bf717" alt="Image" width="550"/>
+
 **Search for a pattern in a file:**
 ```bash
 grep "error" file.txt
 ```
+Output:
+
+<img src="https://github.com/user-attachments/assets/91a30e59-c3af-4cf0-afc4-6d3312d431b9" alt="Image" width="700"/>
+
+<img src="https://github.com/user-attachments/assets/aebf5d2e-ff98-4d5a-aec7-3d2660d740cd" alt="Image" width="700"/>
+
 
 **Sort the contents of a file:**
 ```bash
