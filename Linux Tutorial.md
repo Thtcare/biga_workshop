@@ -23,7 +23,7 @@ One of Linux's main advantages is its reliability, security, and cost-effectiven
 
 ## Examples  
 
-### Listing Files in a Directory  
+**Listing Files in a Directory:**
 
 ```bash
 ls
@@ -45,13 +45,13 @@ Output:
 | `ls -i`   | Show the inode number of files. |
  
 
-**Displays the current directory path**
+**Displays the current directory path:**
 
 ```bash
 pwd 
 ```
 
-**Navigating Directories with cd** 
+**Navigating Directories with cd:** 
   - To move into a directory: 
   ```bash  
   cd directory_name 
@@ -72,12 +72,12 @@ pwd
   cd .. 
   ``` 
 
-**Create a new directory**
+**Create a new directory:**
   ```bash  
   mkdir new_directory 
   ``` 
 
-**Copying Files and Directories with cp** 
+**Copying Files and Directories with cp:** 
 ```bash 
 cp [options] source destination 
 ``` 
@@ -103,7 +103,7 @@ cp -r my_folder /home/user/Backup/
 ``` 
 Copies my_folder and all its contents to the Backup directory. 
 
-**Moving files and Directories**
+**Moving files and Directories:**
 ```bash 
 mv [options] source destination 
 ``` 
@@ -122,7 +122,7 @@ Moves file.txt into the Documents directory.
 mv my_folder /home/user/Documents/ 
 ```
 
-**Remove a file**
+**Remove a file:**
 ``` bash
 rm file.txt
 ```
@@ -143,55 +143,52 @@ rm file.txt
 
 ## Examples:
 
-**Display the contents of a file**
+**Display the contents of a file:**
 ```bash
 cat file.txt
 ```
 
-**Search for a pattern in a file**
+**Search for a pattern in a file:**
 ```bash
 grep "error" file.txt
 ```
 
-**Sort the contents of a file**
+**Sort the contents of a file:**
 ```bash
 sort file.txt
 ```
 
-### Display the first 10 lines of a file:
-
+**Display the first 10 lines of a file:**
 ```bash
 head file.txt
 head -n 5 file.txt
 Shows the first 5 lines of file.txt
 ```
 
-### Display the last 10 lines of a file:
+**Display the last 10 lines of a file:**
 
 ```bash
 tail file.txt
 ```
 
-## File Permissions and Ownership Commands
+**File Permissions and Ownership Commands**
 
 | Command | Description | Example |
 |---------|-------------|---------|
 | `chmod` | Changes file permissions | `chmod 755 file.txt` |
 | `chown` | Changes file owner and group | `chown user:group file.txt` |
-| `chgrp` | Changes file group ownership | `chgrp group file.txt |
+| `chgrp` | Changes file group ownership | `chgrp group file.txt` |
 
 ---
 
 ## Examples:
 
-### Change permissions of a file:
-
+**Change permissions of a file:**
 ```bash
 chmod 755 file.txt
 ```
 
-### Change the owner of a file:
-
+**Change the owner of a file:**
 ```bash
 chown user:group file.txt
 ```
@@ -209,26 +206,22 @@ chown user:group file.txt
 
 ## Examples:
 
-### View running processes:
-
+**View running processes:**
 ```bash
 ps aux
 ```
 
-### Display real-time system statistics:
-
+**Display real-time system statistics:**
 ```bash
 Top
 ```
 
-### Kill a process by its ID:
-
+**Kill a process by its ID:**
 ```bash
 kill 1234
 ```
 
-### Check disk space usage:
-
+**Check disk space usage:**
 ```bash
 df -h
 ```
@@ -247,35 +240,29 @@ df -h
 
 ## Examples:
 
-### Checks the network connection to a server:
+**Checks the network connection to a server:**
+Command: `ping`
+Example: `ping example.com`
 
-#### Command: `ping`
-#### Example: `ping example.com`
+**Retrieves files from the web:**
+Command: `wget`
+Example: `wget http://example.com/file.zip`
 
-### Retrieves files from the web
+**Transfer data from or to a server:**
+Command: `curl`
+Example: `curl http://example.com`
 
-#### Command: `wget`
-#### Example: `wget http://example.com/file.zip`
+**Open SSH client (remote login program):**
+Command: `ssh`
+Example: `ssh user@example.com`
 
-### Transfer data from or to a server:
+**Securely copy files between hosts:**
+Command: `scp`
+Example: `scp file.txt user@example.com:/path/`
 
-#### Command: `curl`
-#### Example: `curl http://example.com`
-
-### Open SSH client (remote login program):
-
-#### Command: `ssh`
-#### Example: `ssh user@example.com`
-
-### Securely copy files between hosts:
-
-#### Command: `scp`
-#### Example: `scp file.txt user@example.com:/path/`
-
-### Transfer files using the File Transfer Protocol:
-
-#### Command: `ftp`
-#### Example: `ftp ftp.example.com`
+**Transfer files using the File Transfer Protocol:**
+Command: `ftp`
+Example: `ftp ftp.example.com`
 
 ## Advanced Shell Commands 
 
@@ -289,20 +276,17 @@ df -h
 
 ## Examples:
 
-### Find files in a directory:
-
+**Find files in a directory:**
 ```bash
 find /home/user -name "*.txt"
 ```
 
-### Create a tarball archive:
-
+**Create a tarball archive:**
 ```bash
 tar -cvf archive.tar file1.txt file2.txt
 ```
 
-### Connect to a remote machine using SSH:
-
+**Connect to a remote machine using SSH:**
 ```bash
 ssh user@remote_host
 ```
@@ -312,14 +296,12 @@ You can combine multiple commands by piping their output. In short, it allows th
 
 ## Examples:
 
-### View the top 10 processes:
-
+**View the top 10 processes:**
 ```bash
 ps aux | head -n 10
 ```
 
-### Search and sort a log file: 
-
+**Search and sort a log file:**
 ```bash
 grep "error" log.txt | sort
 ```
