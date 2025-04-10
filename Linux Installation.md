@@ -65,6 +65,10 @@ curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mi
 ```bash
 bash Miniforge3-$(uname)-$(uname -m).sh 
 ```
+- Source .bashrc
+```bash
+source ~/.bashrc
+```
 
 - Test conda
   
