@@ -66,3 +66,37 @@ FastQC generates comprehensive reports, including:
 - HTML Report: An interactive HTML file summarizing all quality checks.
 - Text Report: A detailed text file providing the raw data for each analysis.
 - Zipped File: A compressed file containing all the outputs for easy sharing and storage.
+
+## Trimming and Filtering 
+### Trimming reads using Trimmomatic 
+
+The quality of the last few bases of the read can be substantially lower than the rest of the sequence read. In general, QC tools are unable to filter these reads out due to their overall high quality. Besides, it is not advisable to discard the whole read just because of few low-quality bases at the ends. Therefore, it is crucial to trim such bases before any further analysis. Trimmomatic (Lohse et al., 2012) is a fast command line tool that can be used to trim and crop Illumina data as well as to remove adapters (see Table below). We will be using the paired-end mode which will process both forward and reverse reads simultaneously, keeping the correspondence of read pairs intact. 
+
+|  Parameter  | Description | 
+|---------|-------------|
+| ILLUMINACLIP | Cut adapter and other Illumina-specific sequences from the read |
+| SLIDINGWINDOW | Performs a sliding window trimming approach. It starts scanning at the 5' end and clips the read once the average quality within the window falls below a threshold |
+| MAXINFO | An adaptive quality trimmer which balances read length and error rate to maximise the value of each read |
+| LEADING | Cut bases off the start of a read, if below a threshold quality |
+| TRAILING | Cut bases off the end of a read, if below a threshold quality |
+| CROP | Cut the read to a specified length by removing bases from the end |
+| HEADCROP | Cut the specified number of bases from the start of the read |
+| MINLEN | Drop the read if it is below a specified length |
+| AVGQUAL | Drop the read if the average quality is below the specified level |
+| TOPHRED33 | Convert quality scores to Phred-33 |
+| TOPHRED64 | Convert quality scores to Phred-64 |
+
+---
+
+### Mapping 
+After quality control and pre-processing, reads are mapped (aligned) to the reference genome to determine their most probable origin. Since sequencing errors and genome mutations exist, exact matches may not always be found, so alignment algorithms must tolerate mismatches. Efficient algorithms and data structures are required for fast and accurate alignment. 
+
+### Commandline:
+```{bash}  
+c
+```
+
+### Sort and Index
+Sorting organizes data in a specific order (like ascending or descending), while indexing provides a way to quickly access or retrieve specific elements within that organized data.
+
+
