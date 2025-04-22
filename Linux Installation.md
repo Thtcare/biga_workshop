@@ -96,6 +96,8 @@ This guide to getting started with conda goes over the basics of starting up and
 
 ## Install conda  by conda-forge/miniforge 
 - gitclone
+
+You can use either wget or curl to download the latest installer script for your system:
 ```cmd
 wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh" 
 ```
@@ -114,6 +116,9 @@ source ~/.bashrc
 
 - Test conda
 
+```bash
+conda
+```
 If everything is working, you'll see output similar to:
   <div align="center">
     <img src="https://github.com/user-attachments/assets/a94bfdbd-f082-421a-97ea-15785d593b06" alt="Image" width="550"/>
