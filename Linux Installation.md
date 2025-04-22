@@ -1,50 +1,76 @@
+
+# 🐧 Install Ubuntu on Windows using WSL
+
+This guide walks you through installing **Ubuntu (24.04 LTS or other versions)** on Windows using **Windows Subsystem for Linux (WSL)**.
+
 <img src="https://github.com/user-attachments/assets/e4d1ba58-cd90-4a95-9ed6-6ef9379fe02a" alt="Image" width="300"/>
 
-Link for download Ubuntu 22.04 LTS (if this version does not work, you can download another version)  https://apps.microsoft.com/detail/9PN20MSR04DW?hl=en-us&gl=TH&ocid=pdpshare or https://ubuntu.com/download/desktop
+---
 
 ## Install Ubuntu 
-1. Turn windows features on or off 
-    - Type “Turn windows features on or off” on search bar  
-    - Select “Windows Subsystem for Linux” and click OK 
-
-        <img src="https://github.com/user-attachments/assets/e7bca459-0b05-4cfb-92ca-964ed50b8665" alt="Image" width="300"/>
-
-    - Windows completed the requested changes and restart windows
-2. Command Prompt
-    - Type Cmd in search bar
-
-        <img src="https://github.com/user-attachments/assets/3deb63ab-cb75-4ef8-bd0f-84de57786516" alt="Image" width="350"/>
-
-    - Open Cmd 
-    - Type Bash on terminal
-    - The output shows Windows Subsystem for Linux has no installed distributions.
-  
-       <img src="https://github.com/user-attachments/assets/bb5b39f5-0a13-41b0-ab0f-f8fbead2952a" alt="Image" width="400"/>
-
-3. Download Ubuntu 
-    - Link for download Ubuntu 24.04 LTS (if this version does not work, you can download another version)  https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=TH or https://ubuntu.com/download/desktop
-  
-      <img src="https://github.com/user-attachments/assets/53443d3f-87c2-4c53-9bac-09dbc4b4553e" alt="Image" width="650"/>
+### Step 1: Enable Windows Subsystem for Linux
+   1. In the Windows Search bar, type: **Turn Windows features on or off**
+   2. Open the menu
+   3. Scroll down and check:
+      ✅ Windows Subsystem for Linux
+   4. Click OK, then Restart your computer when prompted.
       
-    - Open Ubuntu
-  
+       <img src="https://github.com/user-attachments/assets/e7bca459-0b05-4cfb-92ca-964ed50b8665" alt="Image" width="300"/>
+       
+   5. Windows completed the requested changes and restart windows
+        
+
+### Step 2: Open Command Prompt
+1. Open the **Start menu**, and search for:
+   ```
+   cmd
+   ```
+   
+   <img src="https://github.com/user-attachments/assets/3deb63ab-cb75-4ef8-bd0f-84de57786516" alt="Image" width="350"/>
+   
+2. Right-click **Command Prompt**
+3. Type the following in the terminal:
+      ```bash
+        bash
+      ```
+   If WSL is installed but no Linux distributions are present, you'll see:
+   > Windows Subsystem for Linux has no installed distributions.
+
+<img src="https://github.com/user-attachments/assets/bb5b39f5-0a13-41b0-ab0f-f8fbead2952a" alt="Image" width="400"/>
+
+
+### Step 3: Download Ubuntu
+   1. For Download Ubuntu, You can choose one of the following methods:
+   #### Option A: Microsoft Store (Recommended)
+
+- [Download Ubuntu 24.04 LTS from Microsoft Store](https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=TH)
+
+    #### Option B: Download from Ubuntu Official Website
+
+- [Download Ubuntu from ubuntu.com](https://ubuntu.com/download/desktop)
+2. Open Ubuntu
+### Step 4: Install WSL2 Kernel Update (If Needed)
+If launching Ubuntu shows an error about the kernel:
       <img src="https://github.com/user-attachments/assets/eb1f1ffe-62f8-4562-8eb9-1857e93714d2" alt="Image" width="500"/>
+      
+1. Go to: [https://aka.ms/wsl2kernel](https://aka.ms/wsl2kernel)
+2. Download and run the **Linux kernel update package**.
+3. Windows Subsystem for Linux Update
 
-    - From error massage, go to https://aka.ms/wsl2kernel 
-    - Download Linux kernel update package
+<img src="https://github.com/user-attachments/assets/ea615271-d2d4-4f6a-a44a-475cd74164cd" alt="Image" width="450"/>
 
-      <img src="https://github.com/user-attachments/assets/8d53784b-f55e-41f2-84f2-b3d184ec9b67" alt="Image" width="500"/>
+4. Reboot if necessary.
 
-    - Windows Subsystem for Linux Update
-
-       <img src="https://github.com/user-attachments/assets/ea615271-d2d4-4f6a-a44a-475cd74164cd" alt="Image" width="450"/>
-
-4. Install  
-    - Open ubuntu 
-    - The screen show Installing, this may take a few minutes 
-    - Create username and password
-
-      <img src="https://github.com/user-attachments/assets/a2dc5986-0410-4146-b895-f831250869a6" alt="Image" width="500"/>
+### Step 5: Launch Ubuntu
+1. Open **Ubuntu** from the Start menu.
+    - It will display:
+      > Installing, this may take a few minutes...
+2. Create username and password
+    - You'll be prompted to set:
+      - A **username**
+      - A **password**
+        
+       <img src="https://github.com/user-attachments/assets/a2dc5986-0410-4146-b895-f831250869a6" alt="Image" width="500"/>
 ---
 
 <img src="https://github.com/user-attachments/assets/3e44e70f-d0f9-4560-b75f-5860b574935d" alt="Image" width="300"/>
