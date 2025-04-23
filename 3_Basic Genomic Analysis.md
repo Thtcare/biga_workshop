@@ -84,3 +84,6 @@ Example:
 - @ = 64 → 64 - 33 = Q31
 
 - I = 73 → 73 - 33 = Q40
+
+**References**
+- https://compgenomr.github.io/book/fasta-and-fastq-formats.html
