@@ -32,6 +32,10 @@ After the initial quality check, low-quality bases are trimmed, and short reads 
 - **Adapter Content** – Cumulative plot of the fraction of reads where the sequence library adapter sequence is identified at the indicated base position. Only adapters specific to the library type are searched. 
 - **Kmer content** – measures the frequency of each short nucleotide sequence of length k (default = 7) across a read. It identifies biased kmers, or kmers that appear at certain positions more frequently than expected. This is useful for identifying possible biases in sequencing data, often due to factors like highly expressed sequences in RNA-seq libraries or shearing efficiency in DNA-Seq. The module reports the positions of the six most biased kmers. Although this module can be difficult to interpret, it helps to highlight areas in the data where sequence biases may affect results. For more detailed interpretation, it’s advised to refer to FastQC’s Kmer content documentation.
 
+reference: https://rtsf.natsci.msu.edu/sites/_rtsf/assets/File/FastQC_TutorialAndFAQ_080717.pdf
+
+---
+
 ### Install Fastqc
 1. Create a new Conda environment
 ```{bash}  
@@ -50,6 +54,8 @@ conda install bioconda::fastqc
 fastqc --help
 ```
 You should see the FastQC help menu if the installation was successful.
+
+---
 
 ### Run FastQC 
 1. Activate fastqc environtment – activating environments is essential to making the software in the environments work well. 
@@ -107,13 +113,6 @@ The quality of the last few bases of the read can be substantially lower than th
 
 ---
 
-### Mapping 
-After quality control and pre-processing, reads are mapped (aligned) to the reference genome to determine their most probable origin. Since sequencing errors and genome mutations exist, exact matches may not always be found, so alignment algorithms must tolerate mismatches. Efficient algorithms and data structures are required for fast and accurate alignment. 
-
-### Commandline:
-```{bash}  
-c
-```
 
 ### Sort and Index
 Sorting organizes data in a specific order (like ascending or descending), while indexing provides a way to quickly access or retrieve specific elements within that organized data.
