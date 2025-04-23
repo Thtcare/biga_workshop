@@ -32,7 +32,7 @@ After the initial quality check, low-quality bases are trimmed, and short reads 
 - **Adapter Content** – Cumulative plot of the fraction of reads where the sequence library adapter sequence is identified at the indicated base position. Only adapters specific to the library type are searched. 
 - **Kmer content** – measures the frequency of each short nucleotide sequence of length k (default = 7) across a read. It identifies biased kmers, or kmers that appear at certain positions more frequently than expected. This is useful for identifying possible biases in sequencing data, often due to factors like highly expressed sequences in RNA-seq libraries or shearing efficiency in DNA-Seq. The module reports the positions of the six most biased kmers. Although this module can be difficult to interpret, it helps to highlight areas in the data where sequence biases may affect results. For more detailed interpretation, it’s advised to refer to FastQC’s Kmer content documentation.
 
-### Run FastQC
+### Run FastQC 
 1. Activate fastqc environtment – activating environments is essential to making the software in the environments work well. 
 ```{bash}  
 conda activate fastqc
@@ -60,6 +60,8 @@ fastqc HG001.fastq.gz HG002.fastq.gz -o output_qc -t 4
 ```
 &emsp;&emsp;-o output_fastqc: specifies the output directory for the results. Make sure the output_fastqc directory exists before running the command.
 &emsp;&emsp;-t 4: uses 4 threads to speed up the analysis
+
+#### Install Fastqc
     
 ### Output Reports
 FastQC generates comprehensive reports, including:
