@@ -8,11 +8,15 @@ To better understand, imagine that sequencing machines read DNA samples and outp
 
 ### Fasta format 
 
+<img src="https://github.com/user-attachments/assets/6c8fbf3b-5ed2-4d72-9e23-b6b804726077" width="600"/>
+
 The ">" symbol indicates a sequence header (usually containing metadata about the sequence), and the following line is the actual sequence of nucleotides. 
 
 In contrast, FASTQ format not only stores the nucleotide sequence but also includes a corresponding quality score for each base, which reflects the confidence that the sequencer has in each base call. 
 
 ### Fastq format 
+
+<img src="https://github.com/user-attachments/assets/1ae59856-925f-4cb6-b75e-b9403ccdce68" width="600"/>
 
 #### In this case:
 
