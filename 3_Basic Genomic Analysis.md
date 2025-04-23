@@ -32,7 +32,8 @@ The Q score (Phred Quality Score) is calculated using the formula:
 	Q = -10 × log₁₀(P)
 
 Where:
-	•	P is the probability that a base call is incorrect.
+
+- P is the probability that a base call is incorrect.
 
 ### Examples of Phred Scores and Corresponding Error Probabilities:
 
