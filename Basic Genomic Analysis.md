@@ -76,6 +76,6 @@ To convert from ASCII to Phred Quality Score, use this simple formula:
 
 Example:
 
-@ = 64 → 64 - 33 = Q31
+- @ = 64 → 64 - 33 = Q31
 
-I = 73 → 73 - 33 = Q40
+- I = 73 → 73 - 33 = Q40
