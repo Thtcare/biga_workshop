@@ -54,5 +54,5 @@ To convert from ASCII to Phred Quality Score, use this simple formula:
 
         Phred score = ASCII value − 33
 
-
+####ใส่ตาราง ASCII
 
