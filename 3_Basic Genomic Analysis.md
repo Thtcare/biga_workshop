@@ -29,7 +29,7 @@ In contrast, FASTQ format not only stores the nucleotide sequence but also inclu
 
 The Q score (Phred Quality Score) is calculated using the formula:
 
-Q = -10 × log₁₀(P)
+	Q = -10 × log₁₀(P)
 
 Where:
 	•	P is the probability that a base call is incorrect.
