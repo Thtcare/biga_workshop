@@ -92,6 +92,8 @@ FastQC generates comprehensive reports, including:
 - Text Report: A detailed text file providing the raw data for each analysis.
 - Zipped File: A compressed file containing all the outputs for easy sharing and storage.
 
+---
+
 ## Trimming and Filtering 
 ### Trimming reads using Trimmomatic 
 
@@ -113,7 +115,40 @@ The quality of the last few bases of the read can be substantially lower than th
 
 ---
 
+### Install Trimmomatic
+1. Create a new Conda environment
+```{bash}  
+conda create -n trimmomatic
+```
+2. Activate the environment
+```{bash}  
+conda activate trimmomatic
+```  
+3. Install FastQC from Bioconda
+```{bash} 
+conda install bioconda::trimmomatic
+``` 
+4. Verify the installation
+```{bash} 
+trimmomatic PE
+```
+You should see the FastQC help menu if the installation was successful.
 
+### Run FastQC 
+1. Activate trimmomatic environtment – activating environments is essential to making the software in the environments work well. 
+```{bash}  
+conda activate trimmomatic
+```
+2. Change directories to the raw_data folder and check the contents
+```{bash}  
+cd ~/workshop/data/
+ls -l
+```
+4. Run trimmomatic
+  - Run trimmomatic For paired-end reads
+  ```{bash}
+  trimmomaticPE  R1.fastq R2.fastq  
+  ```
 ### Sort and Index
 Sorting organizes data in a specific order (like ascending or descending), while indexing provides a way to quickly access or retrieve specific elements within that organized data.
 
