@@ -352,3 +352,8 @@ grep "error" log.txt | sort
 ### Conclusion
 Mastering the basic shell commands in Linuxis among the essential things to know so that you can perform a seamless system navigation, learn how to manage files efficiently, and perform other operations. By learning these commands, you can easily enhance your Linux skills and get a better insight over the system.
 
+
+**References**
+
+https://www.linux.com/what-is-linux/
+
