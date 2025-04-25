@@ -204,6 +204,56 @@ Shows the first 5 lines of file.txt
 tail file.txt
 ```
 
+## Networking Shell Commands
+
+| Command | Description | Example |
+|---------|-------------|---------|
+| `ping` | Checks the network connection to a server | `ping example.com` |
+| `wget` | Retrieves files from the web | `wget http://example.com/file.zip` |
+| `curl` | Transfers data from or to a server | `curl http://example.com` |
+| `ssh` | Opens SSH client (remote login program) | `ssh user@example.com` |
+| `scp` | Securely copies files between hosts | `scp file.txt user@example.com:/path/` |
+
+---
+
+## Examples:
+
+**Checks the network connection to a server:**
+
+- Command: `ping`
+
+- Example: `ping example.com`
+
+**Retrieves files from the web:**
+
+- Command: `wget`
+
+- Example: `wget http://example.com/file.zip`
+
+**Transfer data from or to a server:**
+
+- Command: `curl`
+
+- Example: `curl http://example.com`
+
+**Open SSH client (remote login program):**
+
+- Command: `ssh`
+
+- Example: `ssh user@example.com`
+
+**Securely copy files between hosts:**
+
+- Command: `scp`
+
+- Example: `scp file.txt user@example.com:/path/`
+
+**Transfer files using the File Transfer Protocol:**
+
+- Command: `ftp`
+
+- Example: `ftp ftp.example.com`
+
 **File Permissions and Ownership Commands**
 
 | Command | Description | Example |
@@ -259,55 +309,6 @@ kill 1234
 df -h
 ```
 
-## Networking Shell Commands
-
-| Command | Description | Example |
-|---------|-------------|---------|
-| `ping` | Checks the network connection to a server | `ping example.com` |
-| `wget` | Retrieves files from the web | `wget http://example.com/file.zip` |
-| `curl` | Transfers data from or to a server | `curl http://example.com` |
-| `ssh` | Opens SSH client (remote login program) | `ssh user@example.com` |
-| `scp` | Securely copies files between hosts | `scp file.txt user@example.com:/path/` |
-
----
-
-## Examples:
-
-**Checks the network connection to a server:**
-
-- Command: `ping`
-
-- Example: `ping example.com`
-
-**Retrieves files from the web:**
-
-- Command: `wget`
-
-- Example: `wget http://example.com/file.zip`
-
-**Transfer data from or to a server:**
-
-- Command: `curl`
-
-- Example: `curl http://example.com`
-
-**Open SSH client (remote login program):**
-
-- Command: `ssh`
-
-- Example: `ssh user@example.com`
-
-**Securely copy files between hosts:**
-
-- Command: `scp`
-
-- Example: `scp file.txt user@example.com:/path/`
-
-**Transfer files using the File Transfer Protocol:**
-
-- Command: `ftp`
-
-- Example: `ftp ftp.example.com`
 
 ## Advanced Shell Commands 
 
