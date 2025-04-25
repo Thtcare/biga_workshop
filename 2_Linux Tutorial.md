@@ -14,7 +14,7 @@ One of Linux's main advantages is its reliability, security, and cost-effectiven
 | `pwd` | Displays the current directory path | `pwd` |
 | `mkdir` | Creates a new directory | `mkdir new_directory` |
 | `rm` | Removes files or directories | `rm file.txt` |
-| `cp` | Copies files or directories | `cp file1.txt file2.txt` |
+| `cp` | Copies files or directories | `cp file.txt /home/user/Documents/ ` |
 | `mv` | Moves or renames files and directories | `mv old_name new_name` |
 | `touch` | Creates an empty file or updates file timestamps | `touch newfile.txt` |
 | `rmdir` | Removes an empty directory | `rmdir empty_directory` |
