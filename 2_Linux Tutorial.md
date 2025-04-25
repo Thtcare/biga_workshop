@@ -148,6 +148,8 @@ Output:
 
 <img src="https://github.com/user-attachments/assets/c03a5031-96f6-4bed-8384-177a9f8afcf3" alt="Image" width="550"/>
 
+---
+
 ## Text Processing Commands in Linux
 
 | Command | Description | Example |
