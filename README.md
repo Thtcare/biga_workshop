@@ -1,6 +1,6 @@
-# biga_workshop
+# HiFi Sequencing for Human Health within Reach
 #### 📅 Date: 13–16 May 2025, 9.00 am – 4.00 pm
-#### 📍 Location: 2 Floor R104, Research and Learning Centre Celebrating HRH Princess Chulabhorn 60th Birthday Anniversary
+#### 📍 Location: 2 Floor R104, Research and Learning Centre Celebrating HRH Princess Chulabhorn 60th Birthday Anniversary and online
 ---
 ### **PacBio Training Workshop Schedule**
 
@@ -37,17 +37,17 @@
 
 #### **Thursday, 15th May 2025**
 
-| Time                  | Session                                          |
+| Time                  | Session                                                          |
 |-----------------------|----------------------------------------------------------------------|
 | 08.00 am – 08.30 am   | Registration                                     |
 | 08.30 am – 09.00 am   | Install Ubuntu: Solving Problems                 |
-| 09.00 am – 10.30 am   | Basic Linux for Genomics (Part 1)               |
+| 09.00 am – 10.30 am   | Basic Linux for Genomics (BIGA Lab)               |
 | 10.30 am – 10.45 am   | Break                                            |
-| 10.45 am – 12.00 pm   | Basic Linux for Genomics (Part 2)               |
+| 10.45 am – 12.00 pm   | Data privacy and data security in genomics data (HW & YIS)  |
 | 12.00 pm – 01.00 pm   | Lunch                                            |
-| 01.00 pm – 02.30 pm   | PacBio Talk: Cancer Genomic for HiFi Sequencing |
+| 01.00 pm – 02.30 pm   | Cloud computing in genomics era (HW & YIS)       |
 | 02.30 pm – 03.00 pm   | Break                                            |
-| 03.00 pm – 04.00 pm   | PacBio Talk: VEGA Turnkey Presentation           |
+| 03.00 pm – 04.00 pm   | High performance computing gear up genomics analysis (HW & YIS)    |
 
 ---
 
@@ -56,13 +56,13 @@
 | Time                  | Session                                                              |
 |-----------------------|----------------------------------------------------------------------|
 | 08.00 am – 09.00 am   | Registration                                                         |
-| 09.00 am – 10.30 am   | Demonstrate: Pipelines for Cancer Genomics                           |
+| 09.00 am – 10.30 am   | Talk: Human Genomic for HiFi Sequencing (PacBio & DKSH)              |
 | 10.30 am – 11.00 am   | Break                                                                |
-| 11.00 am – 12.00 pm   | Demonstrate: Example of Previously Run Results & Data Analysis Report |
+| 11.00 am – 12.00 pm   | Demonstrate: Vega Turnkey presentation + Vega Demo (PacBio & DKSH)   |
 | 12.00 pm – 01.00 pm   | Lunch                                                                |
-| 01.00 pm – 02.30 pm   | Approaches for Integrating Multi-Omics Data                          |
+| 01.00 pm – 02.30 pm   | Talk: Cancer genomics for HiFi Sequencing (PacBio & DKSH)            |
 | 02.30 pm – 02.45 pm   | Break                                                                |
-| 02.45 pm – 03.30 pm   | Cloud Computing in Genomics Era (YIP IN TSOI and HUAWEI)             |
+| 02.45 pm – 03.30 pm   | Demonstrate: Example of results that was previously run and reports Data analysis (Dr Thoranin)             |
 | 03.30 pm – 04.00 pm   | Closing & Networking Session                                         |
 
 ---
