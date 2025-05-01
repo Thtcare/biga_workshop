@@ -1,6 +1,6 @@
 # HiFi Sequencing for Human Health within Reach
 #### 📅 Date: 13–16 May 2025, 9.00 am – 4.00 pm
-#### 📍 Location: 2 Floor R104, Research and Learning Centre Celebrating HRH Princess Chulabhorn 60th Birthday Anniversary and online
+#### 📍 Location: Research and Learning Centre Celebrating HRH Princess Chulabhorn 60th Birthday Anniversary and online
 ---
 ### **PacBio Training Workshop Schedule**
 
