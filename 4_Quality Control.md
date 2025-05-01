@@ -149,7 +149,7 @@ ls -l
 4. Run trimmomatic
   - Run trimmomatic For paired-end reads
   ```{bash}
-  trimmomaticPE  R1.fastq R2.fastq  
+  trimmomatic PE HG001.fastq.gz HG002.fastq.gz -baseout trim/trim.fastq HEADCROP:6 LEADING:3 TRAILING:10 SLIDINGWINDOW:4:20
   ```
 ### Sort and Index
 Sorting organizes data in a specific order (like ascending or descending), while indexing provides a way to quickly access or retrieve specific elements within that organized data.
