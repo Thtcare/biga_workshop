@@ -29,7 +29,7 @@ One of Linux's main advantages is its reliability, security, and cost-effectiven
 ---
 
 # Basic Linux Commands
-## Commands Overview  
+## Part 1: Commands Overview  
 
 | Command | Description | Example |
 |---------|-------------|---------|
@@ -43,7 +43,6 @@ One of Linux's main advantages is its reliability, security, and cost-effectiven
 | `touch` | Creates an empty file or updates file timestamps | `touch newfile.txt` |
 | `rmdir` | Removes an empty directory | `rmdir empty_directory` |
 
----
 
 ## Examples  
 
@@ -174,7 +173,7 @@ Output:
 
 ---
 
-## Text Processing Commands in Linux
+## Part 2: Text Processing Commands in Linux
 
 | Command | Description | Example |
 |---------|-------------|---------|
@@ -186,7 +185,6 @@ Output:
 | `less` | Reads and searches content within a file | `less file.txt` |
 | `wc` | Counts the lines, words, and characters in a file | `wc file.txt` |
 
----
 
 ## Examples:
 
@@ -227,8 +225,9 @@ Shows the first 5 lines of file.txt
 ```bash
 tail file.txt
 ```
+---
 
-## Networking Shell Commands
+## Part 3: Networking Shell Commands
 
 | Command | Description | Example |
 |---------|-------------|---------|
@@ -237,8 +236,6 @@ tail file.txt
 | `curl` | Transfers data from or to a server | `curl http://example.com` |
 | `ssh` | Opens SSH client (remote login program) | `ssh user@example.com` |
 | `scp` | Securely copies files between hosts | `scp file.txt user@example.com:/path/` |
-
----
 
 ## Examples:
 
@@ -286,9 +283,7 @@ tail file.txt
 | `chown` | Changes file owner and group | `chown user:group file.txt` |
 | `chgrp` | Changes file group ownership | `chgrp group file.txt` |
 
----
-
-## Examples:
+### Examples:
 
 **Change permissions of a file:**
 ```bash
@@ -299,8 +294,9 @@ chmod 755 file.txt
 ```bash
 chown user:group file.txt
 ```
+---
 
-## System Monitoring and Process Management Commands
+##  Part 4: System Monitoring and Process Management Commands
 
 | Command | Description | Example |
 |---------|-------------|---------|
@@ -309,7 +305,6 @@ chown user:group file.txt
 | `kill` | Terminates a process by its ID | `kill 1234` |
 | `df` | Displays disk space usage | `df -h` |
 
-----
 
 ## Examples:
 
@@ -332,17 +327,15 @@ kill 1234
 ```bash
 df -h
 ```
+---
 
-
-## Advanced Shell Commands 
+## Part 5: Advanced Shell Commands 
 
 | Command | Description | Example |
 |---------|-------------|---------|
 | `find` | Searches for files and directions | `find /home/user -name "*.txt"` |
 | `tar` | Archives files into a tarball (.tar) or extracts them | `tar -cvf archive.tar file1.txt file2.txt` |
 | `ssh` | Connects to a remote machine via SSH | `ssh user@remote_host` |
-
----
 
 ## Examples:
 
