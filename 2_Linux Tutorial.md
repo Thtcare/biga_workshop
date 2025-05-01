@@ -9,6 +9,36 @@ Linux is an open-source operating system, similar to Windows and macOS. It is wi
 
 One of Linux's main advantages is its reliability, security, and cost-effectiveness, as it is free to use and modify. It also offers flexibility, with various distributions (distros) available, such as Ubuntu, Debian, Fedora, and CentOS, catering to different needs. Due to its stability and security, Linux is commonly used in enterprise environments, web servers, and cloud computing. 
 
+---
+# How Linux Relates to Bioinformaticians?
+- Most bioinformatics software (e.g., bwa, samtools, STAR, GATK) is built to run on Linux-based systems.
+
+- Pipelines and workflows in genomics, transcriptomics, or proteomics are usually developed and executed on Linux servers or HPC clusters.
+
+- Efficiently manages large genomic files (FASTQ, BAM, VCF) with command-line tools, supporting high-speed operations like sorting, filtering, and mapping.
+
+# Linux shell
+- Shell: A program that interprets and executes user commands, serving as an interface between the user   and the operating system.
+   Eg. bash, sh, ksh, tcsh, zsh, etc
+
+- Terminal: A program that run a shell 
+   (‘command line’ in window) 
+
+- Directory: Folder or location of file
+
+---
+
+# Remote Access Using SSH
+ssh: Opens SSH client (remote login program)
+Example:
+```bash
+ssh user@example.com
+```
+```bash
+ssh biga@10.208.103.12
+```
+---
+
 # Basic Linux Commands
 ## Commands Overview  
 
