@@ -37,6 +37,8 @@ ssh user@example.com
 ```bash
 ssh biga@10.208.103.12
 ```
+<img src="https://github.com/user-attachments/assets/176e4279-231f-48c1-9671-c9d577463997" alt="Image" width="300"/>
+
 ---
 
 # Basic Linux Commands
