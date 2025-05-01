@@ -113,6 +113,8 @@ The quality of the last few bases of the read can be substantially lower than th
 | TOPHRED33 | Convert quality scores to Phred-33 |
 | TOPHRED64 | Convert quality scores to Phred-64 |
 
+reference: http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf
+
 ---
 
 ### Install Trimmomatic
