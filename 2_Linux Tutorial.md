@@ -28,19 +28,6 @@ One of Linux's main advantages is its reliability, security, and cost-effectiven
 
 ---
 
-# Remote Access Using SSH
-ssh: Opens SSH client (remote login program)
-Example:
-```bash
-ssh user@example.com
-```
-```bash
-ssh biga@10.208.103.12
-```
-<img src="https://github.com/user-attachments/assets/176e4279-231f-48c1-9671-c9d577463997" alt="Image" width="300"/>
-
----
-
 # Basic Linux Commands
 ## Commands Overview  
 
@@ -394,6 +381,19 @@ Mastering the basic shell commands in Linuxis among the essential things to know
 
 ---
 
+# Remote Access Using SSH
+ssh: Opens SSH client (remote login program)
+Example:
+```bash
+ssh user@example.com
+```
+```bash
+ssh biga@10.208.103.12
+```
+<img src="https://github.com/user-attachments/assets/176e4279-231f-48c1-9671-c9d577463997" alt="Image" width="1000"/>
+
+
+---
 **References**
 
 https://www.linux.com/what-is-linux/
