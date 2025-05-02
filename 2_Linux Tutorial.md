@@ -157,6 +157,7 @@ Moves file.txt into the Documents directory.
 ``` bash 
 mv my_folder /home/user/Documents/ 
 ```
+Moves my_folder directory into the Documents directory. 
 
 Output:
 
