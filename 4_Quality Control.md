@@ -86,7 +86,8 @@ fastqc HG001.fastq.gz HG002.fastq.gz -o output_qc -t 4
 &emsp;&emsp;-o output_fastqc: specifies the output directory for the results. Make sure the output_fastqc directory exists before running the command.
 &emsp;&emsp;-t 4: uses 4 threads to speed up the analysis
 
-Note: You can use MultiQC to create a single report with interactive plots for multiple bioinformatics analyses across many samples.
+> [!NOTE]
+>  You can use MultiQC to create a single report with interactive plots for multiple bioinformatics analyses across many samples.
     
 ### Output Reports
 FastQC generates comprehensive reports, including:
