@@ -1,8 +1,3 @@
-# Dataset
-You can download datasets from https://chulabhornroyalacademy-my.sharepoint.com/:f:/g/personal/auripan_por_cra_ac_th/EmFxuK7RKzZJh1-PIgvgtlYBpEHfQlKcuzOXE3kMCFMxRg?e=3pvAwV
-
----
-
 # What is Linux? 
 
 Linux is an open-source operating system, similar to Windows and macOS. It is widely used in various devices, from smartphones and computers to servers and supercomputers. The Linux OS consists of key components such as the kernel (core system), bootloader, init system, daemons, graphical server, desktop environment, and applications. 
