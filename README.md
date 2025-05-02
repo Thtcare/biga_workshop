@@ -64,8 +64,3 @@
 | 02.30 pm – 02.45 pm   | Break                                                                |
 | 02.45 pm – 03.30 pm   | Demonstrate: Example of results that was previously run and reports Data analysis (Dr Thoranin)             |
 | 03.30 pm – 04.00 pm   | Closing & Networking Session                                         |
-
----
-
-# Dataset
-You can download datasets from https://chulabhornroyalacademy-my.sharepoint.com/:f:/g/personal/auripan_por_cra_ac_th/EmFxuK7RKzZJh1-PIgvgtlYBpEHfQlKcuzOXE3kMCFMxRg?e=3pvAwV
