@@ -101,6 +101,7 @@ You can use either wget or curl to download the latest installer script for your
 ```cmd
 wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh" 
 ```
+or
 ```cmd 
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh" 
 ```
